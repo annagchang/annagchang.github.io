@@ -1,0 +1,40 @@
+#container {
+	font-family: "Montserrat";
+}
+
+#links {
+	position: absolute;
+	display: inline-block;
+}
+
+#links2 {
+	margin-left: 700px;
+}
+
+.navbar-item {
+	text-decoration: none;
+	font-size: 23px;
+	padding-right: 10px;
+	color: black;
+	margin-right: 30px;
+}
+
+.navbar-item:hover {
+	color: #0098b8;
+	transition-delay: .1s;
+}
+
+#logo {
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-bottom: 10px;
+	font-family: "Permanent Marker";
+	width: 1500px;
+	color: #0098b8;
+	font-size: 35px;
+	line-height: 20px;
+}
+
+#indent {
+	padding-left: 16px;
+}

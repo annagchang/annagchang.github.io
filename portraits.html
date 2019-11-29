@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title>Portraits</title>
+	<link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Permanent Marker" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/portraits.css" />
+</head>
+<body>
+	<div id="container">
+		<div id="navbar">
+			<div id="logo">
+				<div>AnnaC</div>
+				<div id=indent>Photography</div>
+			</div>
+			<div id="links">
+				<ul id="first">
+					<a href="Portraits.html" class="navbar-item">Portraits</a>
+					<a href="Stills.html" class="navbar-item">Stills</a>
+					<a href="Film.html" class="navbar-item">Film</a>
+					<a href="Abroad.html" class="navbar-item">Abroad</a>
+					<a href="About.html" class="navbar-item" id="links2">About Me</a>
+					<a href="Contact.html" class="navbar-item">HMU</a>
+				</ul>
+			</div>
+		</div>
+		<div class="photos" id="wrapper">
+		  <div><img src="images/P6.JPG" alt="slider image"></div>
+		  <div><img src="images/P19.JPG" alt="slider image"></div>
+		  <div><img src="images/P4.JPG.jpg" alt="slider image"></div>
+		  <div><img src="images/P16.JPG" alt="slider image"></div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="assets/js/jquery.js"></script>
+	<script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+	<script type="text/javascript">
+	    $(document).ready(function(){
+	      $('.photos').slick({
+	      	slidesToShow: 3,
+	      	slidesToScroll: 1,
+	      	arrows: true,
+	      	autoplay: true,
+	      	autoplaySpeed: 1500,
+	      });
+	  });
+	</script>
+</body>
+</html>

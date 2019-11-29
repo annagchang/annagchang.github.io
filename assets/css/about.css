@@ -1,0 +1,112 @@
+#container {
+	font-family: "Montserrat";
+}
+
+#links {
+	position: absolute;
+	display: inline-block;
+}
+
+#links2 {
+	margin-left: 700px;
+}
+
+.navbar-item {
+	text-decoration: none;
+	font-size: 23px;
+	padding-right: 10px;
+	color: black;
+	margin-right: 30px;
+}
+
+.navbar-item:hover {
+	color: #0098b8;
+	transition-delay: .1s;
+}
+
+#name {
+	position: absolute;
+	top: 200px;
+	width: 600px;
+	left: 725px;
+	color: #0098b8;
+	font-size: 40px;
+	font-family: "Permanent Marker"
+}
+
+#words {
+	position: absolute;
+	width: 600px;
+	top: 275px;
+	left: 725px;
+	font-size: 20px;
+	font-family: "Source Sans Pro";
+}
+
+#pic-container
+{
+    position: relative;
+}
+
+#pic-container #picture
+{
+    position: absolute;
+    border: 1px solid darkgrey;
+    background-color: white;
+    padding: 15px 15px 60px 15px;
+    box-shadow: 5px 10px 10px darkgrey;
+    left: 300px;
+    top: 100px;
+    transform: scale(1);
+    transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    transition: ease .3s;
+}
+
+#pic-container #picture:after
+{
+    content: attr(caption);
+    position: absolute;
+    bottom: 13px;
+    left: 0px;
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 18px;
+    font-family: "Permanent Marker";
+    text-align: center;
+}
+
+#pic-container #picture:hover {
+	transform: scale(1.2);
+	transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    transition-duration: .3s;
+    transition-timing-function: ease-in;
+}
+
+#logo {
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-bottom: 10px;
+	font-family: "Permanent Marker";
+	width: 1500px;
+	color: #0098b8;
+	font-size: 35px;
+	line-height: 20px;
+}
+
+#indent {
+	padding-left: 16px;
+}
+
+@keyframes blow-up {
+	to {
+		transform: scale(1.25);
+	}
+
+	from {
+		transform: scale(1.25);
+	}
+}
