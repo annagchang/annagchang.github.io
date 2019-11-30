@@ -34,11 +34,12 @@ html{
 
 .rectangle,#click {
 	position: absolute;
+	z-index: -1;
 	border-radius: 10%;
 	height: 50px;
 	width: 70px;
 	background: #222222;
-	top: 50;
+	top: 140;
 	left: 70;
 	animation: up-down 2s infinite;
 }
