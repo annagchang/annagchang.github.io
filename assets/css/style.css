@@ -43,7 +43,8 @@ html{
 }
 
 .rectangle {
-	background: #222222;
+	/*background: #222222;*/
+	opacity: 0;
 }
 
 #click {
