@@ -32,7 +32,7 @@ html{
 	align-items: center;
 }
 
-.rectangle,#click {
+.crectangle,.rectangle,#click {
 	position: absolute;
 	border-radius: 10%;
 	height: 50px;
@@ -43,8 +43,12 @@ html{
 }
 
 .rectangle {
-	background: #ffffff;
-	/*opacity: 0;*/
+	background: #222222;
+	z-index: -1;
+}
+
+.crectangle {
+	opacity: 0;
 }
 
 #click {
